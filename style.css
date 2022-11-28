@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(150, 0, 150);
+    font-family: Arial, Helvetica, sans-serif;
+    /* center the text */
+    text-align: center;
+    /* color the text white */
+    color: rgb(220, 220, 220);
+    /* move the text down a bit */
+    padding-top: 350px;
+}
