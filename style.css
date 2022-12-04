@@ -1,10 +1,105 @@
 body {
-    background-color: rgb(150, 0, 150);
     font-family: Arial, Helvetica, sans-serif;
-    /* center the text */
+    background-color: rgb(40, 0, 40);
+}
+h1 {
     text-align: center;
-    /* color the text white */
-    color: rgb(220, 220, 220);
-    /* move the text down a bit */
-    padding-top: 350px;
+    color: rgb(0, 110, 255);
+}
+
+.sidenav {
+    height: auto; /* Full-height: remove this if you want "auto" height */
+    width: 44px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgb(180, 180, 180); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+    .Home {
+      background-repeat: no-repeat;
+      background-image: url("Home.png");
+      margin: 2px;
+    }
+    .Tasks {
+      background-repeat: no-repeat;
+      background-image: url("Clipboard.png");
+      margin: 3px;
+    }
+    .Feedback {
+      background-repeat: no-repeat;
+      background-image: url("Feedback.png");
+      margin: 3px;
+    }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.big_button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(0, 255, 0);
+  font-size: 50px;
+  color: white;
+  border-radius: 100%;
+  border-color: rgb(0, 255, 0);
+  border-style: solid;
+  position: relative;
+  top: 30px;
+}
+
+.timerLabel {
+  text-align: center;
+  color: black;
+  font-size: 32px;
+}
+
+.time {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+}
+
+.timerBox {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 300px;
+  background-color: orangered;
+  font-size: 50px;
+  color: white;
+  border-radius: 25px;
+  border-color: rgb(255, 0, 0);
+  border-style: solid;
+  position: relative;
+  top: 80px;
 }
