@@ -1,0 +1,51 @@
+/* make the background of the body white */
+body {
+    /* move it under the top-bar */
+    margin-top: 6em;
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+/* make the background of the top-bar white */
+.top-bar {
+    /* make it at the top of the page */
+    position: fixed;
+    top: 0;
+    /* make it full width */
+    width: 100%;
+    /* make it 3em high */
+    height: 3em;
+    background-color: #bebebe;
+    color : #000;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.home-link {
+    padding: 0.5em;
+}
+
+.Shape-Royale-link {
+    padding: 0.5em;
+}
+
+.Shape-Royale-link:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.black-box {
+    text-align: left;
+    background-color: #464646;
+    color: #fff;
+    padding: 1em;
+    margin: 1em;
+    width: 20%;
+}
+
+.home-link:hover {
+    background-color: #000;
+    color: #fff;
+}
