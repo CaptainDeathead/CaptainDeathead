@@ -3,7 +3,7 @@
 // that they need an Internet connection to run the project if desired.
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
-const CACHE_VERSION = "1677940051|88279081231";
+const CACHE_VERSION = "1677983501|131729172594";
 const CACHE_PREFIX = "Shape-Royale-sw-cache-";
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
 const OFFLINE_URL = "Shape-royale.offline.html";
