@@ -12,6 +12,7 @@ body {
     /* make it at the top of the page */
     position: fixed;
     top: 0;
+    left: -1px;
     /* make it full width */
     width: 100%;
     /* make it 3em high */
@@ -25,10 +26,16 @@ body {
 
 .home-link {
     padding: 0.5em;
+    background-color: #bebebe;
+    color: #000;
+    text-decoration: none;
 }
 
 .Shape-Royale-link {
     padding: 0.5em;
+    background-color: #bebebe;
+    color: #000;
+    text-decoration: none;
 }
 
 .Shape-Royale-link:hover {
@@ -42,7 +49,22 @@ body {
     color: #fff;
     padding: 1em;
     margin: 1em;
-    width: 20%;
+    width: 25%;
+    min-width: 15em;
+    display: inline-block;
+    float: left;
+}
+
+.change-log {
+    text-align: left;
+    background-color: #464646;
+    color: #fff;
+    padding: 1em;
+    margin: 1em;
+    width: 25%;
+    min-width: 15em;
+    display: inline-block;
+    float: left;
 }
 
 .home-link:hover {
