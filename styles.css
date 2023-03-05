@@ -64,10 +64,23 @@ body {
     width: 25%;
     min-width: 15em;
     display: inline-block;
-    float: left;
+    float: center;
 }
 
 .home-link:hover {
     background-color: #000;
     color: #fff;
+}
+
+.about-shape-royale-box {
+    text-align: left;
+    background-color: #464646;
+    color: #fff;
+    padding: 1em;
+    margin: 1em;
+    width: 25%;
+    min-width: 15em;
+    display: inline-block;
+    list-style-type: none;
+    float: right;
 }
