@@ -2,6 +2,11 @@ window.onload = function() {
     server_name = "http://us.hio01.botshard.com:10004";
     // make server_name global
     window.server_name = server_name;
+    // check if the user is using https or http
+    if (window.location.protocol === "https:") {
+        // if https, redirect to http
+        window.location.href = "http://www.plazma.live";
+    }
 }
 
 function validateLogin() {
