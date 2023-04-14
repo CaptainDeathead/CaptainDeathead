@@ -4,26 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plazma Meals: Login</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="login.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Plazma Meals!</title>
+    <style>
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <h1>Plazma Meals!</h1>
-    <div class="week">
-        <form class="login">
-            <h2>Login</h2>
-            <label for="username" class="login_label"><b>Username: </label>
-            <input type="text" id="username" name="username" placeholder="Username" required>
-            <h6></h6>
-            <label for="password" class="login_label">Password: </label>
-            <input type="password" id="password" name="password" placeholder="Password" required>
-            <h6></h6>
-            <input type="button" value="Login" onclick="validateLogin()" class="login-button">
-        </form>
-        <h3>Don't have an account?</h3>
-        <input type="button" value="Register" onclick="window.location.href='register.html'" class="login-button">
-    </div>
+    <iframe src="http://5.78.92.158:10004/fetch_login" width="100%" height="100%" frameborder="0"></iframe>
 </body>
 </html>
