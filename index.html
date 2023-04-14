@@ -19,6 +19,13 @@
     </style>
 </head>
 <body>
+    <script>
+        // check if it is https
+        if (document.location.protocol == 'https:') {
+            // load http://plazma.live
+            document.location.href = 'http://plazma.live';
+        }
+    </script>
     <iframe src="http://5.78.92.158:10004/fetch_login" width="100%" height="100%" frameborder="0"></iframe>
 </body>
 </html>
