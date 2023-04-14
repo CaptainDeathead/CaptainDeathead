@@ -1,86 +1,92 @@
-/* make the background of the body white */
 body {
-    /* move it under the top-bar */
-    margin-top: 6em;
-    background-color: #fff;
+    /* puple and blue gradient background */
+    background: #2c3e50; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8c00ff, #3498db); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8c00ff, #3498db); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+
+    /* font */
     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+
+    /* text */
     text-align: center;
+
+    /* padding */
+    padding: 0;
+    margin: 0;
 }
 
-/* make the background of the top-bar white */
-.top-bar {
-    /* make it at the top of the page */
-    position: fixed;
-    top: 0;
-    left: -1px;
-    /* make it full width */
-    width: 100%;
-    /* make it 3em high */
-    height: 3em;
-    background-color: #bebebe;
-    color : #000;
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: 300;
+.week {
+    /* center login form */
+    margin: 0 auto;
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px #000;
 }
 
-.home-link {
-    padding: 0.5em;
-    background-color: #bebebe;
-    color: #000;
-    text-decoration: none;
-}
-
-.Shape-Royale-link {
-    padding: 0.5em;
-    background-color: #bebebe;
-    color: #000;
-    text-decoration: none;
-}
-
-.Shape-Royale-link:hover {
-    background-color: #000;
+#username, #password, #password2, #recipe {
+    /* input fields */
+    width: 65%;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
     color: #fff;
 }
 
-.black-box {
-    text-align: left;
-    background-color: #464646;
+.login-label {
+    /* labels */
+    font-size: 14px;
+    font-weight: bold;
     color: #fff;
-    padding: 1em;
-    margin: 1em;
-    width: 25%;
-    min-width: 15em;
-    display: inline-block;
-    float: left;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.change-log {
-    text-align: left;
-    background-color: #464646;
+.login-button {
+    /* gradient that is the same as the background but opporsite direction*/
+    background: #345bdb; /* fallback for old browsers */
+    border-radius: 5px;
+    padding: 10px;
     color: #fff;
-    padding: 1em;
-    margin: 1em;
-    width: 25%;
-    min-width: 15em;
-    display: inline-block;
-    float: center;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.home-link:hover {
-    background-color: #000;
-    color: #fff;
+/* hover effect for login button */
+.login-button:hover {
+    /* animation that brightens the button */
+    animation: brighten 0.5s;
+    animation-fill-mode: forwards;
 }
 
-.about-shape-royale-box {
-    text-align: left;
-    background-color: #464646;
+.recipe-button:hover {
+    /* animation that brightens the button */
+    animation: brighten 0.5s;
+    animation-fill-mode: forwards;
+}
+
+/* animation that brightens the button */
+@keyframes brighten {
+    0% {
+        background: #345bdb;
+    }
+    100% {
+        background: #8c00ff;
+    }
+}
+
+.recipe-button {
+    /* gradient that is the same as the background but opporsite direction*/
+    background: #345bdb; /* fallback for old browsers */
+    border-radius: 5px;
+    padding: 10px;
     color: #fff;
-    padding: 1em;
-    margin: 1em;
-    width: 25%;
-    min-width: 15em;
-    display: inline-block;
-    list-style-type: none;
-    float: right;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
