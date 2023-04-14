@@ -1,5 +1,5 @@
 window.onload = function() {
-    server_name = "https://us.hio01.botshard.com:10004";
+    server_name = "http://us.hio01.botshard.com:10004";
     // make server_name global
     window.server_name = server_name;
 }
