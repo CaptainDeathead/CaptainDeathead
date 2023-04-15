@@ -1,0 +1,92 @@
+body {
+    /* puple and blue gradient background */
+    background: #2c3e50; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8c00ff, #3498db); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8c00ff, #3498db); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+
+    /* font */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+
+    /* text */
+    text-align: center;
+
+    /* padding */
+    padding: 0;
+    margin: 0;
+}
+
+.week {
+    /* center login form */
+    margin: 0 auto;
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px #000;
+}
+
+#username, #password, #password2, #recipe {
+    /* input fields */
+    width: 65%;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.login-label {
+    /* labels */
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.login-button {
+    /* gradient that is the same as the background but opporsite direction*/
+    background: #345bdb; /* fallback for old browsers */
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* hover effect for login button */
+.login-button:hover {
+    /* animation that brightens the button */
+    animation: brighten 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.recipe-button:hover {
+    /* animation that brightens the button */
+    animation: brighten 0.5s;
+    animation-fill-mode: forwards;
+}
+
+/* animation that brightens the button */
+@keyframes brighten {
+    0% {
+        background: #345bdb;
+    }
+    100% {
+        background: #8c00ff;
+    }
+}
+
+.recipe-button {
+    /* gradient that is the same as the background but opporsite direction*/
+    background: #345bdb; /* fallback for old browsers */
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
