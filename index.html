@@ -2,59 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <title>Plazma Meals: Login</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="login.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <title>Plazma Home!</title>
 </head>
 <body>
-    <h1>Plazma Meals!</h1>
-    <div class="week">
-        <form class="login">
-            <h2>Login</h2>
-            <label for="username" class="login_label"><b>Username: </label>
-            <input type="text" id="username" name="username" placeholder="Username" required>
-            <h6></h6>
-            <label for="password" class="login_label">Password: </label>
-            <input type="password" id="password" name="password" placeholder="Password" required>
-            <h6></h6>
-            <input type="button" value="Login" onclick="validateLogin()" class="login-button">
-        </form>
-        <h3>Don't have an account?</h3>
-        <input type="button" value="Register" onclick="window.location.href='register.html'" class="login-button">
-    </div>
-    <div class="cookies">
-        <h3>Our website uses cookies to ensure you get the best experience!</h3>
-        <input type="button" value="Accept" onclick="acceptCookies()" class="login-button" id="cookies-button">
-    </div>
-    <script>
-        var login = document.getElementById("username");
-        var password = document.getElementById("password");
-        login.focus();
-        login.addEventListener("keypress", function(event) {
-            if (event.key === "Enter") {
-                event.preventDefault();
-                document.getElementById("password").focus();
-            }
-        });
-        password.addEventListener("keypress", function(event) {
-            if (event.key === "Enter") {
-                event.preventDefault();
-                document.getElementsByClassName("login-button")[0].click();
-            }
-        });
-
-        function acceptCookies() {
-            /* hide the div containing the cookies message by triggering the css fadeout animation */
-            document.getElementsByClassName("cookies")[0].style.animation = "fadeout 1s";
-            /* timeout to allow the animation to finish */
-            setTimeout(function() {
-                document.getElementsByClassName("cookies")[0].style.display = "none";
-            }, 900);
-        }
-    </script>
+    <h1>Plazma Home!</h1>
+    <nav id="navbar">
+        <ul id="navbar-ul">
+            <li><a href="http://search.plazma.live">Plazma search engine!</a></li>
+            <li><a href="http://meals.plazma.live">Plazma meals!</a></li>
+            <li><a href="http://racecar.plazma.live">Multiplayer racing game!</a></li>
+            <li><a href="http://shapes.plazma.live">Shape Royale!</a></li>
+        </ul>
+    </nav>
+    <p>Plazma is a collection of web apps that I have made. I am a 15 year old developer and I am learning web development. I am currently learning HTML, CSS, and JavaScript. I am also learning Python and a bit of C++. I am also learning how to use the Flask framework.</p>
 </body>
 </html>
