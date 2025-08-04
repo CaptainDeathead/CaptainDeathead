@@ -1,0 +1,68 @@
+{
+    "0": {
+        "title": "Farm CEO",
+        "description": "Farm CEO is a farming simulator where you manage a farm. You are responsable for all of the management of the farm and must plant crops and fertilise paddocks accordingly to keep them alive.",
+        "demo": "",
+        "github": "https://github.com/CaptainDeathead/Farm-CEO-ng"
+    },
+    "1": {
+        "title": "Plaching",
+        "description": "Plaching is a wedding photo app where people can view and upload photo's of a wedding.",
+        "demo": "https://plaching.plazmasoftware.com",
+        "github": "https://github.com/CaptainDeathead/Plaching"
+    },
+    "2": {
+        "title": "Nebulous",
+        "description": "Nebulous is a retro console system powered by a Raspberry Pi. Designed for both nostalgia and innovation, it offers a unique blend of custom hardware and software to deliver an exciting multiplayer gaming experience.",
+        "demo": "",
+        "github": "https://github.com/CaptainDeathead/Nebulous"
+    },
+    "3": {
+        "title": "FS22 Topcon Tablet",
+        "description": "This is a GPS for Farming Simulator 22 based of the Topcon Horizon monitors. It also has a custom autosteer that hooks into a G29.",
+        "demo": "",
+        "github": "https://github.com/CaptainDeathead/FS22-Topcon-Tablet"
+    },
+    "4": {
+        "title": "cloc",
+        "description": "cloc (Count LOC) is a terminal utility to easily count lines of code in a file / project.",
+        "demo": "https://streamable.com/e/dmddvz",
+        "github": "https://github.com/CaptainDeathead/cloc"
+    },
+    "5": {
+        "title": "Activity Bot",
+        "description": "A Discord bot that tracks users time spent online in discord and their rich presence.",
+        "demo": "",
+        "github": "https://github.com/CaptainDeathead/Discord-Activity-Bot"
+    },
+    "6": {
+        "title": "Whisper",
+        "description": "A fully local, encrypted password manager.",
+        "demo": "",
+        "github": "https://github.com/CaptainDeathead/Whisper"
+    },
+    "7": {
+        "title": "Plazma Browser (Abandoned)",
+        "description": "A simple web browser made in python using tkinter (and pygame) that should use minimum resources (Version 1 and 2).",
+        "demo": "https://github.com/CaptainDeathead/Plazma-Browser/blob/main/README.md",
+        "github": "https://github.com/captaindeathead/plazma-browser"
+    },
+    "8": {
+        "title": "Plat",
+        "description": "Plat is a Discord like chat application made in collaboration with @something231 It has a global chat server so you talk with anyone as long as you have an account.",
+        "demo": "",
+        "github": "https://github.com/CaptainDeathead/Plat"
+    },
+    "9": {
+        "title": "Eatventure Bot",
+        "description": "A bot I made to automate playing the popular mobile game \"Eatventure\" using Python. My first project that I got a few people actively using.",
+        "demo": "",
+        "github": "https://github.com/CaptainDeathead/Eatventure-Bot"
+    },
+    "10": {
+        "title": "Plazma.io",
+        "description": "A Paper.io ripoff I made while learning Pygame.",
+        "demo": "/plazmaio",
+        "github": "https://github.com/CaptainDeathead/Plazma.io"
+    }
+}
