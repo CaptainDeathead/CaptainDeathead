@@ -9,7 +9,7 @@ def about() -> rx.Component:
         rx.vstack(
             rx.heading("About me!", size="9"),
             rx.text(
-                "My name is Joshua Hall (Josh). I am 16 years old. My date of birth is the 21st of October 2008. I live in Perth, Western Australia. I am currently attending high school in year 11. When I graduate school I intend to study Computer Science at University. I have been making cool ", rx.link("projects", href="projects"), " since 2022.",
+                "My name is Joshua Hall and I am 16 years old. I live in Western Australia. I am currently attending high school and when I graduate school I intend to study Computer Science at University. I have been making cool ", rx.link("projects", href="projects"), " since 2022.",
                 size="5",
             ),
             rx.text(

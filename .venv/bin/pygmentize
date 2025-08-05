@@ -1,4 +1,4 @@
-#!/home/captaindeathead/Documents/plazma-site/.venv/bin/python3
+#!/home/captaindeathead/plazma-site/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

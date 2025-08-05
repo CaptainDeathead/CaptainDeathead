@@ -1,0 +1,43 @@
+───────────────────────────── Starting Reflex App ──────────────────────────────
+[21:09:25] Compiling: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 23/23 0:00:02
+Creating Production Build:  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 3/3 0:01:12
+───────────────────────────────── App Running ──────────────────────────────────
+App running at: http://localhost:3000
+Backend running at: http://0.0.0.0:8000
+Starting frontend failed with exit code -1
+$ serve ./build/client
+ INFO  Accepting connections at http://localhost:3000
+ HTTP  04/08/2025 21:10:55 192.168.0.158 GET /
+ HTTP  04/08/2025 21:10:55 192.168.0.158 Returned 200 in 126 ms
+ HTTP  04/08/2025 21:10:55 192.168.0.158 GET /assets/root-B2fr-JAN.js
+ HTTP  04/08/2025 21:10:55 192.168.0.158 GET /assets/chunk-EF7DTUVF-DpzDECl8.js
+ HTTP  04/08/2025 21:10:55 192.168.0.158 GET /assets/button-CfzYQreQ.js
+ HTTP  04/08/2025 21:10:56 192.168.0.158 GET /assets/index-mm3F5HB-.js
+ HTTP  04/08/2025 21:10:56 192.168.0.158 GET /assets/entry.client-BR24DBwL.js
+ HTTP  04/08/2025 21:10:56 192.168.0.158 GET /assets/state-DCkdzaZd.js
+ HTTP  04/08/2025 21:10:55 192.168.0.158 Returned 200 in 60 ms
+ HTTP  04/08/2025 21:10:55 192.168.0.158 Returned 200 in 50 ms
+ HTTP  04/08/2025 21:10:56 192.168.0.158 GET /assets/code-C_JpDV-n.js
+ HTTP  04/08/2025 21:10:56 192.168.0.158 Returned 200 in 57 ms
+ HTTP  04/08/2025 21:10:56 192.168.0.158 GET /assets/manifest-d6faa493.js
+ HTTP  04/08/2025 21:10:56 192.168.0.158 GET 
+/assets/__reflex_global_styles-BSMXNKuQ.css
+ HTTP  04/08/2025 21:10:55 192.168.0.158 Returned 200 in 130 ms
+ HTTP  04/08/2025 21:10:56 192.168.0.158 GET /assets/_index-CaCF3Yx0.js
+ HTTP  04/08/2025 21:10:56 192.168.0.158 Returned 200 in 107 ms
+ HTTP  04/08/2025 21:10:56 192.168.0.158 Returned 200 in 101 ms
+ HTTP  04/08/2025 21:10:56 192.168.0.158 Returned 200 in 84 ms
+ HTTP  04/08/2025 21:10:56 192.168.0.158 GET 
+/assets/createLucideIcon-CgizWInp.js
+ HTTP  04/08/2025 21:10:56 192.168.0.158 Returned 200 in 86 ms
+ HTTP  04/08/2025 21:10:56 192.168.0.158 GET 
+/assets/stateful_components-B-cfopol.js
+ HTTP  04/08/2025 21:10:56 192.168.0.158 Returned 200 in 76 ms
+ HTTP  04/08/2025 21:10:56 192.168.0.158 Returned 200 in 70 ms
+ HTTP  04/08/2025 21:10:56 192.168.0.158 Returned 200 in 58 ms
+ HTTP  04/08/2025 21:10:56 192.168.0.158 Returned 200 in 175 ms
+error: script "prod" was terminated by signal SIGHUP (Terminal hung up)
+
+
+
+Run with --loglevel debug  for the full log.
